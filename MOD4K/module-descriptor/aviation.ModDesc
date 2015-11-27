@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="Aviation Pac">
+  <Key Label="*T" Kind="RPN"/>
+  <Entry i="19" j="21"/>
+  <Key Label="1VOR" Kind="RPN"/>
+  <Entry i="19" j="17"/>
+  <Key Label="2VOR" Kind="RPN"/>
+  <Entry i="19" j="19"/>
+  <Key Label="360+" Kind="RPN"/>
+  <Entry i="19" j="12"/>
+  <Key Label="AVIATIN 1A" Kind="MCODE"/>
+  <Entry i="19" j="0"/>
+  <Key Label="CG" Kind="RPN"/>
+  <Entry i="19" j="3"/>
+  <Key Label="CLIMB" Kind="RPN"/>
+  <Entry i="19" j="10"/>
+  <Key Label="CLWB" Kind="RPN"/>
+  <Entry i="19" j="4"/>
+  <Key Label="CRUISE" Kind="RPN"/>
+  <Entry i="19" j="11"/>
+  <Key Label="DISP" Kind="RPN"/>
+  <Entry i="19" j="14"/>
+  <Key Label="DP" Kind="RPN"/>
+  <Entry i="19" j="6"/>
+  <Key Label="FLY" Kind="RPN"/>
+  <Entry i="19" j="9"/>
+  <Key Label="FM" Kind="RPN"/>
+  <Entry i="19" j="1"/>
+  <Key Label="HCW" Kind="RPN"/>
+  <Entry i="19" j="16"/>
+  <Key Label="IFW" Kind="RPN"/>
+  <Entry i="19" j="15"/>
+  <Key Label="PERF" Kind="RPN"/>
+  <Entry i="19" j="8"/>
+  <Key Label="PLAN" Kind="RPN"/>
+  <Entry i="19" j="5"/>
+  <Key Label="R2" Kind="RPN"/>
+  <Entry i="19" j="18"/>
+  <Key Label="TAS" Kind="RPN"/>
+  <Entry i="19" j="20"/>
+  <Key Label="WA" Kind="RPN"/>
+  <Entry i="19" j="7"/>
+  <Key Label="WALT" Kind="RPN"/>
+  <Entry i="19" j="13"/>
+  <Key Label="WB" Kind="RPN"/>
+  <Entry i="19" j="2"/>
+</XROM>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModFile FileFormat="MOD1" Title="Avigation System" Version="A" PartNumber="" Author="Todd W. Deckard" Copyright="Todd W. Deckard" License="GNU Public License version 3" Comments="" Category="2" Hardware="0">
+  <Page Name="Page" Identity="SR1A" Page="Any" PageGroup="0" Bank="1" BankGroup="0" RAM="0" WriteProtect="0" FAT="1"/>
+</ModFile>
+

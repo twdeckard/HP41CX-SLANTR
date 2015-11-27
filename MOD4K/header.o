@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectCode Architecture="Nut">
+  <Public/>
+  <Extern/>
+  <Sections>
+    <Section Id="0" Name="HEADER" Size="4">
+      <Node>
+        <Source FileRef="0" Line="1">;;; Assembler code needed to describe an RPN module</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="2"/>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="3">              section HEADER</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="4">              con   11              ; XROM number</Source>
+        <Code>
+          <Value>11</Value>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="5">              con   (fatend - fatstart) / 2</Source>
+        <Code>
+          <RangeCheck>
+            <Binop op="/">
+              <Binop op="-">
+                <Reloc Section="1" Offset="0"/>
+                <Reloc Section="0" Offset="2"/>
+              </Binop>
+              <Value>2</Value>
+            </Binop>
+            <Range lo="-512" hi="1023" mask="1023"/>
+          </RangeCheck>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="6">fatstart:     fat   header</Source>
+        <Code>
+          <Binop op="&gt;&gt;">
+            <Binop op="&amp;">
+              <Binop op="-">
+                <Reloc Section="2" Offset="9"/>
+                <Binop op="-">
+                  <Reloc Section="0" Offset="2"/>
+                  <Binop op="&amp;">
+                    <Reloc Section="0" Offset="2"/>
+                    <Value>4095</Value>
+                  </Binop>
+                </Binop>
+              </Binop>
+              <Value>65535</Value>
+            </Binop>
+            <Value>8</Value>
+          </Binop>
+          <Binop op="&amp;">
+            <Binop op="&amp;">
+              <Binop op="-">
+                <Reloc Section="2" Offset="9"/>
+                <Binop op="-">
+                  <Reloc Section="0" Offset="2"/>
+                  <Binop op="&amp;">
+                    <Reloc Section="0" Offset="2"/>
+                    <Value>4095</Value>
+                  </Binop>
+                </Binop>
+              </Binop>
+              <Value>65535</Value>
+            </Binop>
+            <Value>255</Value>
+          </Binop>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="7"/>
+      </Node>
+      <SourceFile Index="0">
+        <Info Level="0" Filename="header.s"/>
+      </SourceFile>
+      <Attributes>
+        <Text/>
+        <Align To="0"/>
+      </Attributes>
+    </Section>
+    <Section Id="1" Name="FATEND" Size="2">
+      <Node>
+        <Source FileRef="0" Line="8">              section FATEND</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="9">;;; End marker for function address table</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="10">fatend:       con   0,0</Source>
+        <Code>
+          <Value>0</Value>
+          <Value>0</Value>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="11"/>
+      </Node>
+      <SourceFile Index="0">
+        <Info Level="0" Filename="header.s"/>
+      </SourceFile>
+      <Attributes>
+        <Text/>
+        <Align To="0"/>
+      </Attributes>
+    </Section>
+    <Section Id="2" Name="Code" Size="10">
+      <Node>
+        <Source FileRef="0" Line="12">              section Code</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="13">;;; Make an empty name function for the module to show up in CAT 2</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="14">              name  "SLANTR 1B" ; The name of the module</Source>
+        <Code>
+          <Value>130</Value>
+          <Value>49</Value>
+          <Value>32</Value>
+          <Value>18</Value>
+          <Value>20</Value>
+          <Value>14</Value>
+          <Value>1</Value>
+          <Value>12</Value>
+          <Value>19</Value>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="15">header:       rtn</Source>
+        <Code>
+          <Value>992</Value>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="16"/>
+      </Node>
+      <SourceFile Index="0">
+        <Info Level="0" Filename="header.s"/>
+      </SourceFile>
+      <Attributes>
+        <Text/>
+        <Align To="0"/>
+      </Attributes>
+    </Section>
+    <Section Id="3" Name="TAIL" Size="11">
+      <Node>
+        <Source FileRef="0" Line="17">              section TAIL</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="18">;;; Tail of the module with empty poll points and module ID</Source>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="19">              con   0,0,0,0,0,0,0</Source>
+        <Code>
+          <Value>0</Value>
+          <Value>0</Value>
+          <Value>0</Value>
+          <Value>0</Value>
+          <Value>0</Value>
+          <Value>0</Value>
+          <Value>0</Value>
+        </Code>
+      </Node>
+      <Node>
+        <Source FileRef="0" Line="20">              text  "B1RS"          ; SR1B</Source>
+        <Code>
+          <Value>2</Value>
+          <Value>49</Value>
+          <Value>18</Value>
+          <Value>19</Value>
+        </Code>
+      </Node>
+      <SourceFile Index="0">
+        <Info Level="0" Filename="header.s"/>
+      </SourceFile>
+      <Attributes>
+        <Text/>
+        <Align To="0"/>
+      </Attributes>
+    </Section>
+  </Sections>
+</ObjectCode>
+

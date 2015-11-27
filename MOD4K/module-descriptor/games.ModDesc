@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="Games Pac">
+  <Key Label="BAGELS" Kind="RPN"/>
+  <Entry i="10" j="1"/>
+  <Key Label="BIOF" Kind="RPN"/>
+  <Entry i="10" j="3"/>
+  <Key Label="BIOR" Kind="RPN"/>
+  <Entry i="10" j="2"/>
+  <Key Label="BOOM" Kind="RPN"/>
+  <Entry i="10" j="9"/>
+  <Key Label="CRAPS" Kind="RPN"/>
+  <Entry i="10" j="4"/>
+  <Key Label="GAMES   1A" Kind="MCODE"/>
+  <Entry i="10" j="0"/>
+  <Key Label="HANG" Kind="RPN"/>
+  <Entry i="10" j="5"/>
+  <Key Label="INI" Kind="RPN"/>
+  <Entry i="10" j="10"/>
+  <Key Label="P" Kind="RPN"/>
+  <Entry i="10" j="11"/>
+  <Key Label="PINBALL" Kind="RPN"/>
+  <Entry i="10" j="6"/>
+  <Key Label="RNDM" Kind="RPN"/>
+  <Entry i="10" j="13"/>
+  <Key Label="RNDMW" Kind="RPN"/>
+  <Entry i="10" j="14"/>
+  <Key Label="SIZE?" Kind="RPN"/>
+  <Entry i="10" j="12"/>
+  <Key Label="SUBHUNT" Kind="RPN"/>
+  <Entry i="10" j="8"/>
+  <Key Label="SWAR" Kind="RPN"/>
+  <Entry i="10" j="7"/>
+</XROM>
+

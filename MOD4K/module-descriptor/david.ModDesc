@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="David Assembler">
+  <Key Label="ASSM" Kind="MCODE"/>
+  <Entry i="2" j="1"/>
+  <Key Label="BEG/END" Kind="MCODE"/>
+  <Entry i="2" j="2"/>
+  <Key Label="BUF&gt;REG" Kind="MCODE"/>
+  <Entry i="2" j="3"/>
+  <Key Label="DAVID-ASSEM" Kind="MCODE"/>
+  <Entry i="2" j="0"/>
+  <Key Label="DISTOA" Kind="MCODE"/>
+  <Entry i="2" j="4"/>
+  <Key Label="REG&gt;BUF" Kind="MCODE"/>
+  <Entry i="2" j="5"/>
+</XROM>
+

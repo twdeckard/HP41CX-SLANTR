@@ -1,0 +1,36 @@
+###############################################################################
+#                                                                             #
+# Nut Assembler                                         01/Feb/2014  15:52:59 #
+#                                                                             #
+# Command Line: header.s                                                      #
+#                                                                             #
+###############################################################################
+
+0001   0000        ;;; Assembler code needed to describe an RPN module
+0002   0000
+0003   0000                      section HEADER
+0004   0000 00b                  con   11              ; XROM number
+0005   0001 ...                  con   (fatend - fatstart) / 2
+0006   0002 ...... fatstart:     fat   header
+0007   0004
+0008   0000                      section FATEND
+0009   0000        ;;; End marker for function address table
+0010   0000 000000 fatend:       con   0,0
+0011   0002
+0012   0000                      section Code
+0013   0000        ;;; Make an empty name function for the module to show up in CAT 2
+0014   0000 082031               name  "SLANTR 1B" ; The name of the module
+0014   0002 020012
+0014   0004 01400e
+0014   0006 00100c
+0014   0008 013
+0015   0009 3e0    header:       rtn
+0016   000a
+0017   0000                      section TAIL
+0018   0000        ;;; Tail of the module with empty poll points and module ID
+0019   0000 000000               con   0,0,0,0,0,0,0
+0019   0002 000000
+0019   0004 000000
+0019   0006 000
+0020   0007 002031               text  "B1RS"          ; SR1B
+0020   0009 012013

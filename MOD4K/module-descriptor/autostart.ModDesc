@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="Automatic Start and Cassette Duplication Module">
+  <Key Label="AUTOST 1A" Kind="MCODE"/>
+  <Entry i="10" j="0"/>
+  <Key Label="MCOPY" Kind="MCODE"/>
+  <Entry i="10" j="3"/>
+  <Key Label="MCOPYPV" Kind="MCODE"/>
+  <Entry i="10" j="4"/>
+  <Key Label="MSCOPY" Kind="RPN"/>
+  <Entry i="10" j="2"/>
+  <Key Label="MVERIFY" Kind="MCODE"/>
+  <Entry i="10" j="5"/>
+  <Key Label="RECOVER" Kind="RPN"/>
+  <Entry i="10" j="1"/>
+</XROM>
+

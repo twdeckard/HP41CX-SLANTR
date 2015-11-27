@@ -1,0 +1,111 @@
+import 41cx
+
+LBL "ABOUT" 
+"COPYRIGHT 2014"
+AVIEW
+PSE
+PSE
+"TODD W DECKARD" 
+AVIEW
+PSE
+PSE
+RTN
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;"SLANTR" 
+;XEQ 10 
+;"HACKTO" 
+;XEQ 10 
+;"HACKOV" 
+;XEQ 10 
+;"HACKC1" 
+;XEQ 10 
+;"HACKC2" 
+;XEQ 10 
+;"PREFLT" 
+;XEQ 10 
+;"ALTMTR" 
+;XEQ 10 
+;"FCSTWD" 
+;XEQ 10 
+;"OUTPUT" 
+;XEQ 10 
+;"CATWPT" 
+;XEQ 10 
+;"UPDATE" 
+;XEQ 10 
+;"DISPLA" 
+;XEQ 10 
+;"*INIPOS" 
+;XEQ 10 
+;"*CRSHDG" 
+;XEQ 10 
+;"*GCLINE" 
+;XEQ 10 
+;"*SIGHT" 
+;XEQ 10 
+;"*GCPLOT" 
+;XEQ 10 
+;"*DEDREC" 
+;XEQ 10 
+;"VOR1B1" 
+;XEQ 10 
+;"VOR2B2" 
+;XEQ 10 
+;"VOR2B1" 
+;XEQ 10 
+;"*CLSEST" 
+;XEQ 10 
+;"*MAGVAR" 
+;XEQ 10 
+;"*DENALT" 
+;XEQ 10 
+;"*SPEEDS" 
+;XEQ 10 
+;"ACTWD" 
+;XEQ 10 
+;"ENDFLT" 
+;XEQ 10 
+;"RNAVFX" 
+;XEQ 10 
+;"HACKFX" 
+;XEQ 10 
+;"COURSE" 
+;XEQ 10 
+;"WAYPTS" 
+;XEQ 10 
+;"FLTPLN" 
+;XEQ 10 
+;"LEGPLN" 
+;XEQ 10 
+;"*WAYPTS" 
+;XEQ 10 
+;"FLYLEG" 
+;XEQ 10 
+;"SAVERG" 
+;XEQ 10 
+;"READRG" 
+;XEQ 10 
+;"SUSPND" 
+;XEQ 10 
+;"RESUME" 
+;XEQ 10 
+;"CATPLN" 
+;XEQ 10 
+;"DISPLY" 
+;XEQ 10 
+;"RADIUS" 
+;XEQ 10 
+;"HACKV1" 
+;XEQ 10 
+;"HACKV2" 
+;XEQ 10 
+;"PRGKEY" 
+;XEQ 10 
+;RTN 
+;LBL 10
+;AVIEW
+;PSE
+;RTN
+;END 

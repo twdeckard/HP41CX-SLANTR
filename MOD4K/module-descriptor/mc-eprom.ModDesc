@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="Mountain Computer EPROM Set">
+  <Key Label="-MC EPROM" Kind="MCODE"/>
+  <Entry i="15" j="0"/>
+  <Key Label="BURNL" Kind="MCODE"/>
+  <Entry i="15" j="1"/>
+  <Key Label="BURNU" Kind="MCODE"/>
+  <Entry i="15" j="2"/>
+  <Key Label="GETEP" Kind="MCODE"/>
+  <Entry i="15" j="3"/>
+  <Key Label="KASN" Kind="MCODE"/>
+  <Entry i="15" j="4"/>
+  <Key Label="P" Kind="MCODE"/>
+  <Entry i="15" j="5"/>
+  <Key Label="RCOPY" Kind="MCODE"/>
+  <Entry i="15" j="6"/>
+  <Key Label="READROM" Kind="MCODE"/>
+  <Entry i="15" j="7"/>
+  <Key Label="REG&gt;ROM" Kind="MCODE"/>
+  <Entry i="15" j="8"/>
+  <Key Label="ROM&gt;REG" Kind="MCODE"/>
+  <Entry i="15" j="9"/>
+  <Key Label="WRTROM" Kind="MCODE"/>
+  <Entry i="15" j="10"/>
+</XROM>
+

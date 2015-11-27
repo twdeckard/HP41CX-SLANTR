@@ -1,0 +1,349 @@
+%%!PS-Adobe-2.0
+%%Creator: HP-41 barcode generator 2.1.1
+%%%%CreationDate: 24/Dec/2013  08:22:48
+%%%%Orientation: Portrait
+%%%%Pages: 7
+%%%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 842
+%%DocumentPaperSizes: A4
+%%%%Title: rnavfx
+%%%%DocumentFonts: Helvetica Helvetica-Bold
+%%%%EndComments
+
+%% Page size setup (A4)
+/OffsetX 500 store
+/PointsX 5900 store
+/PointsY 8200 store
+
+%% Some general size setup
+/ThinLineWidth 12 store
+/LineHeight 250 store
+/ThinLineSkip  ThinLineWidth 4 add store
+/ThickLineWidth ThinLineWidth 2 mul  store
+/ThickLineSkip  ThinLineWidth 1.5 mul  store
+
+
+/TitleFont { /Helvetica-Bold findfont 180 scalefont setfont } def
+/SmallTitleFont { /Helvetica-Bold findfont 100 scalefont setfont } def
+/RowFont {/Helvetica findfont LineHeight 3 div scalefont setfont } def
+
+/Thin  {ThinLineSkip 0 rmoveto
+	0 LineHeight neg rlineto
+	ThinLineSkip LineHeight rmoveto
+	ThinLineWidth setlinewidth
+	currentpoint stroke moveto } def
+/Thick {ThickLineSkip 0 rmoveto
+	0 LineHeight neg rlineto
+	ThickLineSkip LineHeight rmoveto
+	ThickLineWidth setlinewidth
+	currentpoint stroke  moveto } def
+/Leader {Thin Thin} def
+/Trailer {Thick Thin PositionX currentpoint exch pop LineHeight 1.5 mul
+	sub moveto } def
+/DrawByte { [128 64 32 16 8 4 2 1]
+	{1 index and 0 eq {Thin} {Thick} ifelse}
+	forall pop } def
+/DrawLineHeader { RowFont currentpoint 3 -1 roll show LineHeight 12 div sub
+	moveto } def
+
+/PageTitle {  %% (title) (page) (string1) (string2) (string3)
+	TitleFont
+	5 -1 roll dup stringwidth pop PointsX sub neg 2 div  %% Title
+	PointsY 180 sub moveto
+	false charpath 5 setlinewidth stroke
+	SmallTitleFont			%% Page number
+	4 -1 roll dup stringwidth pop PointsX OffsetX sub sub neg
+	PointsY 180 sub moveto show
+	dup stringwidth pop PointsX OffsetX sub sub neg PointsY 300 sub
+	moveto show
+	dup stringwidth pop PointsX sub neg 2 div PointsY 300 sub moveto show
+	OffsetX PointsY 300 sub moveto show } def
+
+/StartPage { /SavedPage save def   PageTitle
+	/PositionX OffsetX store
+	/PositionY PointsY 500 sub store
+	PositionX PositionY moveto } def
+/EndPage   { showpage SavedPage restore } def
+
+initgraphics
+1 10 div dup scale
+%%EndProlog
+
+%%%%Page: 1 7
+(rnavfx) (Page 1(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 1  (1 - 2)) DrawLineHeader
+Leader <6c1003ca00f700524e41564658c601f7> {DrawByte} forall Trailer
+(Row 2  (2 - 5)) DrawLineHeader
+Leader <d31172004841434b4658a69c911df446> {DrawByte} forall Trailer
+(Row 3  (5 - 13)) DrawLineHeader
+Leader <fb123149583f7e8c848b9a1810a66b14> {DrawByte} forall Trailer
+(Row 4  (13 - 15)) DrawLineHeader
+Leader <081356111a101412a655fa42524e4720> {DrawByte} forall Trailer
+(Row 5  (15 - 18)) DrawLineHeader
+Leader <62145546524f4d3f8e912df944495354> {DrawByte} forall Trailer
+(Row 6  (18 - 22)) DrawLineHeader
+Leader <911550414e43453f8e912ea2d2ec00c1> {DrawByte} forall Trailer
+(Row 7  (23 - 29)) DrawLineHeader
+Leader <c01601e82dd685cf41902b9111911490> {DrawByte} forall Trailer
+(Row 8  (29 - 36)) DrawLineHeader
+Leader <a717112c91129115901d9116911785c4> {DrawByte} forall Trailer
+(Row 9  (36 - 37)) DrawLineHeader
+Leader <0c18940df700434f55525345f6535441> {DrawByte} forall Trailer
+(Row 10  (37 - 44)) DrawLineHeader
+Leader <ba193352543f7e8c848b10a66b14111a> {DrawByte} forall Trailer
+(Row 11  (44 - 49)) DrawLineHeader
+Leader <d21a30101412a655f4454e443f7e8c84> {DrawByte} forall Trailer
+(Row 12  (50 - 55)) DrawLineHeader
+Leader <b41b018b10a66b14131a101414a655a2> {DrawByte} forall Trailer
+(Row 13  (55 - 59)) DrawLineHeader
+Leader <eb1c13d09c00f44352533a9b2df57f44> {DrawByte} forall Trailer
+(Row 14  (59 - 64)) DrawLineHeader
+Leader <8e1d3549533a9b2e7e8985c80af70057> {DrawByte} forall Trailer
+(Row 15  (64 - 66)) DrawLineHeader
+Leader <1a1e514159505453f6574159505453a8> {DrawByte} forall Trailer
+(Row 16  (66 - 71)) DrawLineHeader
+Leader <181f1519a65f16a64abed8ca03f70046> {DrawByte} forall Trailer
+(Row 17  (71 - 73)) DrawLineHeader
+Leader <ef10564c54504c4ea2c8f94149525350> {DrawByte} forall Trailer
+(Row 18  (73 - 77)) DrawLineHeader
+Leader <9a11454545443f8e39a2c9ca03f7004c> {DrawByte} forall Trailer
+EndPage
+%%%%Page: 2 7
+(rnavfx) (Page 2(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 19  (77 - 79)) DrawLineHeader
+Leader <e612514547504c4ef6464c54504c4ea8> {DrawByte} forall Trailer
+(Row 20  (79 - 83)) DrawLineHeader
+Leader <bc131719a65f16a64ac603f8002a5741> {DrawByte} forall Trailer
+(Row 21  (83 - 85)) DrawLineHeader
+Leader <6c1448595054530efc454e5445522057> {DrawByte} forall Trailer
+(Row 22  (85 - 88)) DrawLineHeader
+Leader <7d155641595054537e89f82e20544f20> {DrawByte} forall Trailer
+(Row 23  (88 - 96)) DrawLineHeader
+Leader <cd1631454e447e891091280b87902814> {DrawByte} forall Trailer
+(Row 24  (96 - 99)) DrawLineHeader
+Leader <d117191840a66ffa7f3a20574159504e> {DrawByte} forall Trailer
+(Row 25  (99 - 108)) DrawLineHeader
+Leader <7b1821543f7e8c848b9a29a6411245be> {DrawByte} forall Trailer
+(Row 26  (108 - 116)) DrawLineHeader
+Leader <ab1910d2a6711444bcd0a64f16a6770c> {DrawByte} forall Trailer
+(Row 27  (117 - 123)) DrawLineHeader
+Leader <c21a04a644119228bb270e85c60df700> {DrawByte} forall Trailer
+(Row 28  (123 - 126)) DrawLineHeader
+Leader <311b61464c594c4547f44c45473f8e91> {DrawByte} forall Trailer
+(Row 29  (126 - 130)) DrawLineHeader
+Leader <f61c1128f6464c54504c4ea66ba6549a> {DrawByte} forall Trailer
+(Row 30  (130 - 137)) DrawLineHeader
+Leader <341d1100a6549a01879b001415a66f16> {DrawByte} forall Trailer
+(Row 31  (137 - 144)) DrawLineHeader
+Leader <5c1e1112a66f9b017ea2cecf56a2d8a2> {DrawByte} forall Trailer
+(Row 32  (144 - 150)) DrawLineHeader
+Leader <821f13d9a2cfa2daa2cca2ca85c609f7> {DrawByte} forall Trailer
+(Row 33  (150 - 151)) DrawLineHeader
+Leader <4c107600534156455247f65341565245> {DrawByte} forall Trailer
+(Row 34  (151 - 158)) DrawLineHeader
+Leader <c5111147a819a65f1410a64b10a66b10> {DrawByte} forall Trailer
+(Row 35  (158 - 161)) DrawLineHeader
+Leader <6012461a101319a66885c205f7005245> {DrawByte} forall Trailer
+(Row 36  (161 - 164)) DrawLineHeader
+Leader <4b134141445247f653415652454710a6> {DrawByte} forall Trailer
+EndPage
+%%%%Page: 3 7
+(rnavfx) (Page 3(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 37  (164 - 168)) DrawLineHeader
+Leader <8314146b101a101319a65585c004f700> {DrawByte} forall Trailer
+(Row 38  (168 - 171)) DrawLineHeader
+Leader <6f1564535553504e44a6a185cc01f700> {DrawByte} forall Trailer
+(Row 39  (171 - 173)) DrawLineHeader
+Leader <601660524553554d45a6a11a10151010> {DrawByte} forall Trailer
+(Row 40  (174 - 179)) DrawLineHeader
+Leader <6e17000010a69c1a101540f45e5e4d25> {DrawByte} forall Trailer
+(Row 41  (180 - 182)) DrawLineHeader
+Leader <da1800a69d85ca04f700434154504c4e> {DrawByte} forall Trailer
+(Row 42  (183 - 187)) DrawLineHeader
+Leader <ef1906109128a919cf1ff6464c54504c> {DrawByte} forall Trailer
+(Row 43  (187 - 194)) DrawLineHeader
+Leader <b21a124e9028a66b87141840a66ff37f> {DrawByte} forall Trailer
+(Row 44  (194 - 200)) DrawLineHeader
+Leader <a21b213a2075a819a645ad19d603a1f3> {DrawByte} forall Trailer
+(Row 45  (200 - 205)) DrawLineHeader
+Leader <481c307f2d3ea819a645ad19d801a17e> {DrawByte} forall Trailer
+(Row 46  (206 - 213)) DrawLineHeader
+Leader <8c1d028989119228d8071fcf2185c60a> {DrawByte} forall Trailer
+(Row 47  (213 - 215)) DrawLineHeader
+Leader <bf1e84f700444953504c5910f7304445> {DrawByte} forall Trailer
+(Row 48  (215 - 218)) DrawLineHeader
+Leader <491f4550415254e444af11f530444553> {DrawByte} forall Trailer
+(Row 49  (218 - 221)) DrawLineHeader
+Leader <a2101054ec42af12f73554494d4f4646> {DrawByte} forall Trailer
+(Row 50  (222 - 225)) DrawLineHeader
+Leader <931101e241af13f734545255435253e6> {DrawByte} forall Trailer
+(Row 51  (225 - 228)) DrawLineHeader
+Leader <3012203faf14f6344d41474844ec3daf> {DrawByte} forall Trailer
+(Row 52  (229 - 232)) DrawLineHeader
+Leader <3c130015f73244495354524de23caf16> {DrawByte} forall Trailer
+(Row 53  (233 - 236)) DrawLineHeader
+Leader <211401f73244495354464ee63aaf17f3> {DrawByte} forall Trailer
+(Row 54  (236 - 240)) DrawLineHeader
+Leader <091531314753e439af18f431544153e0> {DrawByte} forall Trailer
+EndPage
+%%%%Page: 4 7
+(rnavfx) (Page 4(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 55  (240 - 244)) DrawLineHeader
+Leader <36162038af19f431494153ea36af1110> {DrawByte} forall Trailer
+(Row 56  (245 - 248)) DrawLineHeader
+Leader <d21701f63354454d5043e035af1111f7> {DrawByte} forall Trailer
+(Row 57  (248 - 251)) DrawLineHeader
+Leader <44187138414c54534554e233af1112f7> {DrawByte} forall Trailer
+(Row 58  (251 - 254)) DrawLineHeader
+Leader <ad197139414c54495444e431af1113f7> {DrawByte} forall Trailer
+(Row 59  (254 - 257)) DrawLineHeader
+Leader <101a71344d4147564152e62faf1114f7> {DrawByte} forall Trailer
+(Row 60  (257 - 260)) DrawLineHeader
+Leader <831b713457494e444952e82daf1115f7> {DrawByte} forall Trailer
+(Row 61  (260 - 263)) DrawLineHeader
+Leader <fd1c713157494e535044ea2baf1116f7> {DrawByte} forall Trailer
+(Row 62  (263 - 266)) DrawLineHeader
+Leader <651d713944454e414c54ec29af1117f7> {DrawByte} forall Trailer
+(Row 63  (266 - 269)) DrawLineHeader
+Leader <ce1e71364649584c4154e028af1118f7> {DrawByte} forall Trailer
+(Row 64  (269 - 272)) DrawLineHeader
+Leader <431f71374649584c4f4ee226af1119f7> {DrawByte} forall Trailer
+(Row 65  (272 - 275)) DrawLineHeader
+Leader <9310713554494d4f4646e424af1210f7> {DrawByte} forall Trailer
+(Row 66  (275 - 278)) DrawLineHeader
+Leader <cf1171364445444c4154e622af1211f7> {DrawByte} forall Trailer
+(Row 67  (278 - 281)) DrawLineHeader
+Leader <171271374445444c4f4ee820af1212f7> {DrawByte} forall Trailer
+(Row 68  (281 - 284)) DrawLineHeader
+Leader <5f13713544454454494dea1eaf1213f7> {DrawByte} forall Trailer
+(Row 69  (284 - 287)) DrawLineHeader
+Leader <bc1471354c415354494dec1caf1214f7> {DrawByte} forall Trailer
+(Row 70  (287 - 290)) DrawLineHeader
+Leader <171571304c5354464958e01baf1215f4> {DrawByte} forall Trailer
+(Row 71  (290 - 293)) DrawLineHeader
+Leader <33164430564f52e819af1216f6344252> {DrawByte} forall Trailer
+(Row 72  (293 - 296)) DrawLineHeader
+Leader <3117354e4731ec17af1217f63442524e> {DrawByte} forall Trailer
+EndPage
+%%%%Page: 5 7
+(rnavfx) (Page 5(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 73  (296 - 299)) DrawLineHeader
+Leader <1918264732e216af1219f63554494d45> {DrawByte} forall Trailer
+(Row 74  (299 - 303)) DrawLineHeader
+Leader <80191132e614af1310f530564f5232ec> {DrawByte} forall Trailer
+(Row 75  (303 - 306)) DrawLineHeader
+Leader <1f1a2212af1311f63442524e4733e211> {DrawByte} forall Trailer
+(Row 76  (306 - 309)) DrawLineHeader
+Leader <1a1b12af1312f73243525354524be40f> {DrawByte} forall Trailer
+(Row 77  (309 - 312)) DrawLineHeader
+Leader <161c12af1312f73243525354524be60d> {DrawByte} forall Trailer
+(Row 78  (312 - 315)) DrawLineHeader
+Leader <f81d12af1313f7364445504c4154e80b> {DrawByte} forall Trailer
+(Row 79  (315 - 318)) DrawLineHeader
+Leader <e51e12af1314f7364445504c4f4eea09> {DrawByte} forall Trailer
+(Row 80  (318 - 321)) DrawLineHeader
+Leader <de1f12af1315f7364453544c4154ec07> {DrawByte} forall Trailer
+(Row 81  (321 - 324)) DrawLineHeader
+Leader <c41012af1316f7364453544c4f4ee006> {DrawByte} forall Trailer
+(Row 82  (324 - 327)) DrawLineHeader
+Leader <af1112af1317f730434c53575054e204> {DrawByte} forall Trailer
+(Row 83  (327 - 330)) DrawLineHeader
+Leader <7e1212af1318f732434c53425247e402> {DrawByte} forall Trailer
+(Row 84  (330 - 333)) DrawLineHeader
+Leader <5f1312af1319f732434c53445354e600> {DrawByte} forall Trailer
+(Row 85  (333 - 339)) DrawLineHeader
+Leader <e21410af85cf2ff27f3a90f3a6479a71> {DrawByte} forall Trailer
+(Row 86  (340 - 348)) DrawLineHeader
+Leader <111501719c00aef27e85cf309b7385cf> {DrawByte} forall Trailer
+(Row 87  (348 - 353)) DrawLineHeader
+Leader <751610319b73f47f4b545385cf329b73> {DrawByte} forall Trailer
+(Row 88  (354 - 359)) DrawLineHeader
+Leader <391700f37f4e4d85cf33cf34cf38cf39> {DrawByte} forall Trailer
+(Row 89  (360 - 367)) DrawLineHeader
+Leader <3b18019b7385cf35a6879c04a68485cf> {DrawByte} forall Trailer
+(Row 90  (367 - 373)) DrawLineHeader
+Leader <74191436cf379c046ca68585c651f700> {DrawByte} forall Trailer
+EndPage
+%%%%Page: 6 7
+(rnavfx) (Page 6(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 91  (373 - 377)) DrawLineHeader
+Leader <681a625241444955539c0010912ffa45> {DrawByte} forall Trailer
+(Row 92  (377 - 380)) DrawLineHeader
+Leader <db1b914e445552204852533f8e9127f7> {DrawByte} forall Trailer
+(Row 93  (380 - 384)) DrawLineHeader
+Leader <0c1c704149525350443f8e39a2c8a2c9> {DrawByte} forall Trailer
+(Row 94  (385 - 392)) DrawLineHeader
+Leader <421d00a2d9cf5b902f33a2da27912523> {DrawByte} forall Trailer
+(Row 95  (393 - 399)) DrawLineHeader
+Leader <4c1e02111810401316104b33a2daf743> {DrawByte} forall Trailer
+(Row 96  (399 - 403)) DrawLineHeader
+Leader <f71f604f555253453a902fec0aa37e89> {DrawByte} forall Trailer
+(Row 97  (404 - 412)) DrawLineHeader
+Leader <5a100089279126902742902690254043> {DrawByte} forall Trailer
+(Row 98  (413 - 416)) DrawLineHeader
+Leader <6a1101902542f8205241444955533ae8> {DrawByte} forall Trailer
+(Row 99  (416 - 422)) DrawLineHeader
+Leader <54122006a3f37f4e4d7e898990259027> {DrawByte} forall Trailer
+(Row 100  (423 - 425)) DrawLineHeader
+Leader <15130042f8202052414e47453ae203a3> {DrawByte} forall Trailer
+(Row 101  (426 - 432)) DrawLineHeader
+Leader <ae1401f37f4e4d7e902f131040912f13> {DrawByte} forall Trailer
+(Row 102  (432 - 438)) DrawLineHeader
+Leader <d31520161045d20f5b85cf239c001919> {DrawByte} forall Trailer
+(Row 103  (439 - 446)) DrawLineHeader
+Leader <9816027145d002d5f27f30197145da00> {DrawByte} forall Trailer
+(Row 104  (446 - 451)) DrawLineHeader
+Leader <c81714d5f27f30cf559b7385c01af700> {DrawByte} forall Trailer
+(Row 105  (451 - 455)) DrawLineHeader
+Leader <2a18614841434b5631a69c911c911da8> {DrawByte} forall Trailer
+(Row 106  (455 - 458)) DrawLineHeader
+Leader <e619110185ca02f7004841434b5632a6> {DrawByte} forall Trailer
+(Row 107  (458 - 462)) DrawLineHeader
+Leader <df1a159c911dad01d406d0f942524e47> {DrawByte} forall Trailer
+(Row 108  (462 - 467)) DrawLineHeader
+Leader <5c1b50204348473f8e911a901d901c4a> {DrawByte} forall Trailer
+EndPage
+%%%%Page: 7 7
+(rnavfx) (Page 7(7)) (Version 1.0) (24/Dec/2013  08:22:48) (1601 bytes)
+StartPage
+(Row 109  (468 - 476)) DrawLineHeader
+Leader <801c026d1610422842901a439c01f544> {DrawByte} forall Trailer
+(Row 110  (476 - 480)) DrawLineHeader
+Leader <c81d404953543d9b73f37f4e4d7ecf50> {DrawByte} forall Trailer
+(Row 111  (481 - 483)) DrawLineHeader
+Leader <501e0285c209f7005052474b4559f653> {DrawByte} forall Trailer
+(Row 112  (483 - 486)) DrawLineHeader
+Leader <1e1f534c414e54521c1111a65af65052> {DrawByte} forall Trailer
+(Row 113  (486 - 489)) DrawLineHeader
+Leader <b3104445464c541c1113a65af6464353> {DrawByte} forall Trailer
+(Row 114  (489 - 492)) DrawLineHeader
+Leader <3b11355457441c1114a65af64841434b> {DrawByte} forall Trailer
+(Row 115  (492 - 495)) DrawLineHeader
+Leader <a91226544f1c1211a65af64841434b43> {DrawByte} forall Trailer
+(Row 116  (495 - 498)) DrawLineHeader
+Leader <c51310311c1214a65af64841434b4332> {DrawByte} forall Trailer
+(Row 117  (499 - 502)) DrawLineHeader
+Leader <0814011c1215a65af6414c544d54521c> {DrawByte} forall Trailer
+(Row 118  (502 - 505)) DrawLineHeader
+Leader <2915221115a65af6564f523142311c13> {DrawByte} forall Trailer
+(Row 119  (505 - 508)) DrawLineHeader
+Leader <3b161013a65af6564f523142321c1314> {DrawByte} forall Trailer
+(Row 120  (509 - 512)) DrawLineHeader
+Leader <d31701a65af6564f523242311c1315a6> {DrawByte} forall Trailer
+(Row 121  (512 - 515)) DrawLineHeader
+Leader <8318105af64f55545055541c1412a65a> {DrawByte} forall Trailer
+(Row 122  (516 - 519)) DrawLineHeader
+Leader <a61901f6444953504c591c1413a65af6> {DrawByte} forall Trailer
+(Row 123  (519 - 523)) DrawLineHeader
+Leader <761a61454e44464c541c1511a65a85cc> {DrawByte} forall Trailer
+(Row 124  (523 - 523)) DrawLineHeader
+Leader <d11b201709> {DrawByte} forall Trailer
+EndPage
+%%%%Trailer
+%%%%EOF

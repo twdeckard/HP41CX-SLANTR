@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="Barcode Wand">
+  <Key Label="- WAND 1F -" Kind="MCODE"/>
+  <Entry i="27" j="0"/>
+  <Key Label="WNDDTA" Kind="MCODE"/>
+  <Entry i="27" j="1"/>
+  <Key Label="WNDDTX" Kind="MCODE"/>
+  <Entry i="27" j="2"/>
+  <Key Label="WNDLNK" Kind="MCODE"/>
+  <Entry i="27" j="3"/>
+  <Key Label="WNDSCN" Kind="MCODE"/>
+  <Entry i="27" j="5"/>
+  <Key Label="WNDSUB" Kind="MCODE"/>
+  <Entry i="27" j="4"/>
+  <Key Label="WNDTST" Kind="RPN"/>
+  <Entry i="27" j="6"/>
+</XROM>
+

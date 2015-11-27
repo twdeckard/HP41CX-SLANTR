@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="ZENROM">
+  <Key Label="-ZENROM 3B" Kind="MCODE"/>
+  <Entry i="5" j="0"/>
+  <Key Label="CLMM" Kind="MCODE"/>
+  <Entry i="5" j="1"/>
+  <Key Label="CLXM" Kind="MCODE"/>
+  <Entry i="5" j="2"/>
+  <Key Label="CODE" Kind="MCODE"/>
+  <Entry i="5" j="3"/>
+  <Key Label="DECODE" Kind="MCODE"/>
+  <Entry i="5" j="4"/>
+  <Key Label="LASTP" Kind="MCODE"/>
+  <Entry i="5" j="5"/>
+  <Key Label="MCED" Kind="MCODE"/>
+  <Entry i="5" j="6"/>
+  <Key Label="NOP" Kind="MCODE"/>
+  <Entry i="5" j="7"/>
+  <Key Label="NRCLM" Kind="MCODE"/>
+  <Entry i="5" j="8"/>
+  <Key Label="NRCLX" Kind="MCODE"/>
+  <Entry i="5" j="9"/>
+  <Key Label="NSTOM" Kind="MCODE"/>
+  <Entry i="5" j="10"/>
+  <Key Label="RAMED" Kind="MCODE"/>
+  <Entry i="5" j="11"/>
+  <Key Label="TOGF" Kind="MCODE"/>
+  <Entry i="5" j="12"/>
+</XROM>
+
